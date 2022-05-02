@@ -1,0 +1,47 @@
+from scipy import stats
+
+mean==np.mean(x)
+np.sort(x)
+median==np.median(x)
+
+stats.mode(x)
+
+------------------------------------------------
+
+range=xmax-xmin======================np.ptp(x)
+percentiles(quartiles)
+
+q1=np.percentile(x,25)
+q2=np.percentile(x,50)
+q3=np.percentile(x,75)
+
+iqr=q3-q1
+
+np.var(x)
+np.std(x)
+
+import statistics
+statistics.pstdev(x) # population SD
+
+statistics.stdev(x) # sample SD
+
+from scipy.stats import skew
+
+skew(x)
+
+from scipy.stats import kurtosis
+kurtosis(x)
+
+plt.boxplot(x)
+
+from scipy.stats import variation
+
+k=variation(x)
+
+Correlation Vs Covarience
+
+y= df[[]].corr()
+
+sns.heatmap(y)
+
+df[[]].cov()
