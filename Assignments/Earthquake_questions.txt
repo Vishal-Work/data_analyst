@@ -1,0 +1,9 @@
+TOPIC: DATA EXPLORATION and Visualization
+
+For the given Earthquake Dataset
+
+1. Clean and perform steps of Wrangling.
+2. Depict the shape w.r.t skewness in magnitude and visualize its correlation with various attributes of data. 
+3. Perform some aspects of exploration.
+4. Visualize the count of Nuclear explosion by year and the maximum occurrence w.r.t year.
+ 5. Visualize the count w.r.t Source, Type and Magnitude Source.
